@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "bundle": "typings bundle -o bundle.d.ts",
+    "test": "npm run bundle && ts-node test.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "base64-js": "^1.1.2",
+    "tape": "^4.5.1",
+    "ts-node": "^0.7.3",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10"
+  }
+}
